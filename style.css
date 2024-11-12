@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('Untitled Project (12).jpg');
+    background-size: 100% 100%; /* Stretches to fit both width and height */
+    background-position: center;
+}
+
+
+
+/* Style for the overlay images */
+.overlay-image {
+    position: absolute;
+}
+
+/* Positioning each image individually */
+.image1 {
+    top: 380px;
+    left: 20px;
+    width: 60px; /* Adjust size as needed */
+}
+
+.image2 {
+    top: 450px;
+    left: 20px;
+    width: 60px; /* Adjust size as needed */
+}
+
+.image3 {
+    top: 20px;
+    left: 83vw; /* Changed to a percentage-based position for responsiveness */
+    width: 200px; /* Adjust size as needed */
+}
+
+.image4 {
+    top: 20px;
+    left: 68vw; /* Changed to a percentage-based position for responsiveness */
+    width: 200px; /* Adjust size as needed */
+}
+
+.overlay-image:hover {
+    transform: scale(1.05); /* Slightly enlarges the image on hover */
+    cursor: pointer; /* Changes cursor to a pointer to indicate it's clickable */
+    transition: transform 0.2s; /* Smooth transition */
+}
