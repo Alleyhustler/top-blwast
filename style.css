@@ -46,6 +46,12 @@ body, html {
     width: 200px; /* Adjust size as needed */
 }
 
+.image5 {
+    top: 60px;
+    left: 5vw;
+    width: 701px; nmkl
+}
+
 .overlay-image:hover {
     transform: scale(1.05); /* Slightly enlarges the image on hover */
     cursor: pointer; /* Changes cursor to a pointer to indicate it's clickable */
